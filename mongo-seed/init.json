@@ -30,5 +30,101 @@
   {
     "name": "Slowbro",
     "imageUrl": "http://localhost:3000/image/Slowbro.jpg"
+  },
+  {
+    "name": "Arcanine",
+    "imageUrl": "http://localhost:3000/image/Arcanine.png"
+  },
+  {
+    "name": "Beedrill",
+    "imageUrl": "http://localhost:3000/image/Beedrill.png"
+  },
+  {
+    "name": "Blastoise",
+    "imageUrl": "http://localhost:3000/image/Blastoise.png"
+  },
+  {
+    "name": "Bullbasaur",
+    "imageUrl": "http://localhost:3000/image/Bullbasaur.png"
+  },
+  {
+    "name": "Butterfree",
+    "imageUrl": "http://localhost:3000/image/Butterfree.png"
+  },
+  {
+    "name": "Caterpie",
+    "imageUrl": "http://localhost:3000/image/Caterpie.png"
+  },
+  {
+    "name": "Charmeleon",
+    "imageUrl": "http://localhost:3000/image/Charmeleon.png"
+  },
+  {
+    "name": "Charizard",
+    "imageUrl": "http://localhost:3000/image/Charizard.png"
+  },
+  {
+    "name": "Charmander",
+    "imageUrl": "http://localhost:3000/image/Charmander.png"
+  },
+  {
+    "name": "Ivysaur",
+    "imageUrl": "http://localhost:3000/image/Ivysaur.png"
+  },
+  {
+    "name": "Kakuna",
+    "imageUrl": "http://localhost:3000/image/Kakuna.png"
+  },
+  {
+    "name": "Metapod",
+    "imageUrl": "http://localhost:3000/image/Metapod.png"
+  },
+  {
+    "name": "Nidoking",
+    "imageUrl": "http://localhost:3000/image/Nidoking.png"
+  },
+  {
+    "name": "Nidoqueen",
+    "imageUrl": "http://localhost:3000/image/Nidoqueen.png"
+  },
+  {
+    "name": "Pidgeot",
+    "imageUrl": "http://localhost:3000/image/Pidgeot.png"
+  },
+  {
+    "name": "Pidgeotto",
+    "imageUrl": "http://localhost:3000/image/Pidgeotto.png"
+  },
+  {
+    "name": "Pidgey",
+    "imageUrl": "http://localhost:3000/image/Pidgey.png"
+  },
+  {
+    "name": "Pikachu",
+    "imageUrl": "http://localhost:3000/image/Pikachu.png"
+  },
+  {
+    "name": "Raichu",
+    "imageUrl": "http://localhost:3000/image/Raichu.png"
+  },
+  {
+    "name": "Sandslash",
+    "imageUrl": "http://localhost:3000/image/Sandslash.png"
+  },
+  {
+    "name": "Squirtle",
+    "imageUrl": "http://localhost:3000/image/Squirtle.png"
+  },
+  {
+    "name": "Venusaur",
+    "imageUrl": "http://localhost:3000/image/Venusaur.png"
+  },
+  {
+    "name": "Wartotle",
+    "imageUrl": "http://localhost:3000/image/Wartotle.png"
+  },
+  {
+    "name": "Weedle",
+    "imageUrl": "http://localhost:3000/image/Weedle.png"
   }
 ]

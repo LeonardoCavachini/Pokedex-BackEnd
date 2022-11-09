@@ -17,12 +17,9 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 app.use(pokemonRouter);
 
 mongoose
-  .connect('mongodb+srv://leosasuke:pikachu36@pokemongo.cmtjgsy.mongodb.net/?retryWrites=true&w=majority', {
+  .connect('mongodb://db:27017/pokemon-api', {
     useNewUrlParser: true
   })
-  //.connect('mongodb://db:27017/pokemon-api', {
-  //  useNewUrlParser: true
-  //})
   .then(() => {
     app.listen(3000, () => console.log('server is running'))
   })
