@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Articuno", 
+    "imageUrl": "http://localhost:3000/image/Articuno.jpg"
+  },
+  {
+    "name": "Clefairy", 
+    "imageUrl": "http://localhost:3000/image/Clefairy.jpg"
+  },
+  {
+    "name": "Jigglypuff",
+    "imageUrl": "http://localhost:3000/image/Jigglypuff.jpg"
+  },
+  {
+    "name": "Jynx",
+    "imageUrl": "http://localhost:3000/image/Jynx.jpg"
+  },
+  {
+    "name": "Meowth",
+    "imageUrl": "http://localhost:3000/image/Meowth.jpg"
+  },
+  {
+    "name": "Mr.Mine",
+    "imageUrl": "http://localhost:3000/image/Mr.Mine.jpg"
+  },
+  {
+    "name": "Raticate",
+    "imageUrl": "http://localhost:3000/image/Raticate.jpg"
+  },
+  {
+    "name": "Slowbro",
+    "imageUrl": "http://localhost:3000/image/Slowbro.jpg"
+  }
+]
