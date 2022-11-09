@@ -1,0 +1,160 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API de manipulação de Pokemons",
+    "descirption": "Essa API tem como objetivo disponibilizar pokemons para captura-los",
+    "termsOfService": "http://localhost:3000/terms",
+    "contact": {
+      "email": "cavachini240@gmail.com"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "decription": "API de test"
+    }
+  ],
+  "paths": {
+    "/pokemon": {
+      "post": {
+        "summary": "Cadastro de Pokémons",
+        "description": "Esta rota tem como finalidade cadastrar pokémons no sitema.",
+        "tags": ["Pokémons"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pokemon"
+              },
+              "examples": {
+                "pokemon": {
+                  "value": {
+                    "name": "Charmander",
+                    "imageUrl": "http://pokemonNet.com/charmander.jpg"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "401": {
+            "description": "imageUrl e name são requeridos"
+          },
+          "200": {
+            "description": "Pokémon criado com Sucesso!!",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "$ref": "#/components/schemas/Pokemon"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "error interno"
+          }
+
+        }
+      },
+      "get": {
+        "description": "Buscar todos os pokémons",
+        "summary": "Buscar todo so pokémos",
+        "tags": ["Pokemons"],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "$ref": "#/components/schemas/Pokemon"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/caught": {
+      "post": {
+        "summary": "Captura de Pokémons",
+        "description": "Esta rota tem como finalidade capturar pokémons no sitema.",
+        "tags": ["Caught"],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pokemon"
+              },
+              "examples": {
+                "caught": {
+                  "value": {
+                    "name": "Venusaur",
+                    "imageUrl": "http://pokemonNet.com/Venusaur.jpg"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "401": {
+            "description": "Você já capturou esse pokemon"
+          },
+          "200": {
+            "description": "Pokémon capturado com sucesso!",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "$ref": "#/components/schemas/Pokemon"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "error interno"
+          }
+
+        }
+      },
+      "get": {
+        "description": "Buscar todos os pokémons capturados",
+        "summary": "Buscar todo so pokémos capturados",
+        "tags": ["Caught"],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "$ref": "#/components/schemas/Pokemon"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  
+  "components": {
+    "schemas": {
+      "Pokemon": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          } 
+        }
+      }
+    }
+  }
+}
