@@ -12,15 +12,6 @@ exports.postCaught = async (req, res) => {
     imageUrl
   });
 
-  try {
-    const pokemon = await Caught.findOne({ name: name})
-    if (pokemon) {
-      return res.status(401).json({ message: "Você já capturou esse pokemon"})
-    }
-  } catch (error) {
-    res.status(400).json({ mesage: error})
-  }
-  
   await caught.save()
   .then(res.status(201).json({ message: "Pokémon capturado com sucesso!"}))
   .catch(err => console.log(err))
