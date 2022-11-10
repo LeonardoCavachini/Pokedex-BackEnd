@@ -1,35 +1,35 @@
 [
   {
     "name": "Articuno", 
-    "imageUrl": "http://localhost:3000/image/Articuno.jpg"
+    "imageUrl": "http://localhost:3000/image/Articuno.png"
   },
   {
     "name": "Clefairy", 
-    "imageUrl": "http://localhost:3000/image/Clefairy.jpg"
+    "imageUrl": "http://localhost:3000/image/Clefairy.png"
   },
   {
     "name": "Jigglypuff",
-    "imageUrl": "http://localhost:3000/image/Jigglypuff.jpg"
+    "imageUrl": "http://localhost:3000/image/Jigglypuff.png"
   },
   {
     "name": "Jynx",
-    "imageUrl": "http://localhost:3000/image/Jynx.jpg"
+    "imageUrl": "http://localhost:3000/image/Jynx.png"
   },
   {
     "name": "Meowth",
-    "imageUrl": "http://localhost:3000/image/Meowth.jpg"
+    "imageUrl": "http://localhost:3000/image/Meowth.png"
   },
   {
     "name": "Mr.Mine",
-    "imageUrl": "http://localhost:3000/image/Mr.Mine.jpg"
+    "imageUrl": "http://localhost:3000/image/Mr.Mime.png"
   },
   {
     "name": "Raticate",
-    "imageUrl": "http://localhost:3000/image/Raticate.jpg"
+    "imageUrl": "http://localhost:3000/image/Raticate.png"
   },
   {
     "name": "Slowbro",
-    "imageUrl": "http://localhost:3000/image/Slowbro.jpg"
+    "imageUrl": "http://localhost:3000/image/Slowbro.png"
   },
   {
     "name": "Arcanine",

@@ -1,7 +1,7 @@
 const Caught = require('../model/index');
 
 exports.postCaught = async (req, res) => {
-  const { name, imageUrl } = req.body;
+  const { name, imageUrl, _id } = req.body;
 
   if(!imageUrl || !name) {
     res.status(405).json({message:'imageUrl e name são requeridos'})
@@ -9,7 +9,8 @@ exports.postCaught = async (req, res) => {
 
   const caught = new Caught({
     name, 
-    imageUrl
+    imageUrl,
+    _id
   });
 
   await caught.save()
