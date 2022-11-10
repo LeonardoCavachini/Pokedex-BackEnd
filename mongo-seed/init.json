@@ -44,8 +44,8 @@
     "imageUrl": "http://localhost:3000/image/Blastoise.png"
   },
   {
-    "name": "Bullbasaur",
-    "imageUrl": "http://localhost:3000/image/Bullbasaur.png"
+    "name": "Bulbasaur",
+    "imageUrl": "http://localhost:3000/image/Bulbasaur.png"
   },
   {
     "name": "Butterfree",
@@ -120,8 +120,8 @@
     "imageUrl": "http://localhost:3000/image/Venusaur.png"
   },
   {
-    "name": "Wartotle",
-    "imageUrl": "http://localhost:3000/image/Wartotle.png"
+    "name": "Wartortle",
+    "imageUrl": "http://localhost:3000/image/Wartortle.png"
   },
   {
     "name": "Weedle",

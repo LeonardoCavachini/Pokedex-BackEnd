@@ -101,10 +101,10 @@
           }
         },
         "responses": {
-          "401": {
+          "200": {
             "description": "Você já capturou esse pokemon"
           },
-          "200": {
+          "201": {
             "description": "Pokémon capturado com sucesso!",
             "content": {
               "application/json": {
