@@ -60,8 +60,8 @@
         }
       },
       "get": {
-        "description": "Buscar todos os pokémons",
-        "summary": "Buscar todo so pokémos",
+        "description": "Buscar todos pokémons",
+        "summary": "Buscar todos pokémos",
         "tags": ["Pokemons"],
         "responses": {
           "200": {
@@ -122,8 +122,8 @@
         }
       },
       "get": {
-        "description": "Buscar todos os pokémons capturados",
-        "summary": "Buscar todo so pokémos capturados",
+        "description": "Buscar todos pokémons capturados",
+        "summary": "Buscar todos pokémos capturados",
         "tags": ["Caught"],
         "responses": {
           "200": {
